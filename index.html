@@ -13,18 +13,25 @@
       margin: 0;
       height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
     }
     h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    h2 {
       font-size: 4rem;
+      margin: 0;
     }
     .sim { color: Olive; }
     .nao { color: SaddleBrown; }
   </style>
 </head>
 <body>
-  <h1 id="resposta"></h1>
+  <h1>A Malu já nasceu?</h1>
+  <h2 id="resposta"></h2>
 
   <script>
     // Troque para true quando a Malu nascer
@@ -40,9 +47,7 @@
     }
   </script>
 </body>
-
 </html>
-
 
 
 
